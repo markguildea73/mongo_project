@@ -121,7 +121,7 @@ def main_loop():
         elif option == "3":
             edit_record()
         elif option == "4":
-            print("You have selected option 4")
+            delete_record()
         elif option == "5":
             conn.close()
             break
